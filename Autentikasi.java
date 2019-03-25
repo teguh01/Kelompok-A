@@ -16,7 +16,7 @@ public class Autentikasi extends Authenticator {
         String username = "admin";
  
         // mendapatkan password dari pengguna
-        String password = "fandi123";
+        String password = "tekkom2016";
  
         // mengembalikan informasi ke PasswordAuthentication
         return new PasswordAuthentication(username, password.toCharArray());
