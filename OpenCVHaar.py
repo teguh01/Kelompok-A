@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
  
 image = cv2.imread('gambar.jpg')
 grayImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
